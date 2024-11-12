@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:hint="Nama"
         android:padding="12dp"
-        android:minHeight="48dp" /> <!-- Menambahkan tinggi minimum -->
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/ageEditText"
@@ -22,7 +22,7 @@
         android:layout_below="@id/nameEditText"
         android:layout_marginTop="8dp"
         android:padding="12dp"
-        android:minHeight="48dp" /> <!-- Menambahkan tinggi minimum -->
+        android:minHeight="48dp" />
 
     <RadioGroup
         android:id="@+id/genderRadioGroup"
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:text="Laki-laki"
             android:padding="12dp"
-            android:minHeight="48dp" /> <!-- Menambahkan tinggi minimum -->
+            android:minHeight="48dp" />
 
         <RadioButton
             android:id="@+id/femaleRadioButton"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:text="Perempuan"
             android:padding="12dp"
-            android:minHeight="48dp" /> <!-- Menambahkan tinggi minimum -->
+            android:minHeight="48dp" />
     </RadioGroup>
 
     <Button

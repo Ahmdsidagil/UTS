@@ -24,7 +24,6 @@ class DisplayActivity : AppCompatActivity() {
         val age = intent.getIntExtra("age", 0)
         val gender = intent.getStringExtra("gender") ?: "Tidak ditentukan"
 
-        // Menampilkan data di TextView
         nameTextView.text = "Nama: $name"
         ageTextView.text = "Usia: $age"
         genderTextView.text = "Jenis Kelamin: $gender"
